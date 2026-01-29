@@ -169,4 +169,5 @@ Caso ocorra erro durante a replicação:
 
 Artigo com mais detalhes técnicos:
 - Setup 2 Hyper-V 2016 Servers – Enable Hyper-V Replica with Self-Created Certificates
+https://medium.com/@pbengert/setup-2-hyper-v-2016-servers-enable-hyper-v-replica-with-self-created-certificates-and-connect-to-fceef21c8b8e
 
