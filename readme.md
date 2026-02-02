@@ -24,7 +24,7 @@ Abra o **PowerShell como Administrador** e execute o comando abaixo:
 New-SelfSignedCertificate \
 -Type "Custom" \
 -KeyExportPolicy "Exportable" \
--Subject "HV-BROKER" \
+-Subject "HVCA" \
 -CertStoreLocation "Cert:\LocalMachine\My" \
 -KeySpec "Signature" \
 -KeyUsage "CertSign" \
@@ -55,7 +55,7 @@ Execute o comando abaixo **uma vez para cada servidor**, ajustando o **CN para o
 New-SelfSignedCertificate \
 -type "Custom" \
 -KeyExportPolicy "Exportable" \
--Subject "CN=HITDRVSGROUP.cloud.vsgroup" \
+-Subject "CN=HV01" \
 -CertStoreLocation "Cert:\LocalMachine\My" \
 -KeySpec "KeyExchange" \
 -TextExtension @("2.5.29.37={text}1.3.6.1.5.5.7.3.1,1.3.6.1.5.5.7.3.2") \
@@ -99,7 +99,7 @@ $mypwd = Get-Credential -UserName 'Enter password below' -Message 'Enter passwor
 
 Import-PfxCertificate \
 -CertStoreLocation Cert:\LocalMachine\My\ \
--FilePath .\PIOXII-HV01.pfx \
+-FilePath .\HV01.pfx \
 -Password $mypwd.Password
 ```
 
