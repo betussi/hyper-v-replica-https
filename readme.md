@@ -40,7 +40,7 @@ Esse certificado será utilizado como **Root CA** para assinar os certificados d
 Após a criação:
 1. Abra **MMC** → *Certificates (Local Computer)*
 2. Navegue até **Personal → Certificates**
-3. Localize o certificado **HV-BROKER**
+3. Localize o certificado **HVCA**
 4. Abra o certificado e copie o **Thumbprint**
 
 > ⚠️ Guarde esse Thumbprint, ele será utilizado no próximo passo.
