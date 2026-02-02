@@ -83,7 +83,7 @@ Para **cada virtualizador**:
 
 ### 5.2 Exportar o certificado ROOT (CER)
 
-1. Selecione o certificado **HV-BROKER**
+1. Selecione o certificado **HVCA**
 2. Exporte no formato **CER**
 3. No **virtualizador de destino**, importe este certificado em:
    - **Trusted Root Certification Authorities**
